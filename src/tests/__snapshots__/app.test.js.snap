@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`App should render the login component 1`] = `
+<div>
+  <h1>
+    Login
+  </h1>
+</div>
+`;
+
 exports[`App should render without crashing 1`] = `
 <div>
   <h1>
