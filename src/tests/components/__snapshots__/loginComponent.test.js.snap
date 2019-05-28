@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login component fail tests should render without crashing 1`] = `ShallowWrapper {}`;
+
+exports[`login component success tests should render without crashing 1`] = `ShallowWrapper {}`;

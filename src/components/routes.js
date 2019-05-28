@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import Login from "./loginComponent";
+import LoginContainer from "../containers/LoginContainer";
 import Home from "./home";
 
 class Routes extends Component {
@@ -8,7 +8,7 @@ class Routes extends Component {
     return (
       <BrowserRouter>
         <Route exact path="/" component={Home} />
-        <Route path="/login" component={Login} />
+        <Route path="/login" component={LoginContainer} />
       </BrowserRouter>
     );
   }
