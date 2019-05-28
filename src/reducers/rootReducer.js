@@ -2,5 +2,8 @@ import { combineReducers } from "redux";
 import authReducer from "./authReducer";
 
 export const rootReducer = combineReducers({
-  auth: authReducer
+  blank: function(state, action) {
+    if (state == null) state = [];
+    return state;
+  }
 });
