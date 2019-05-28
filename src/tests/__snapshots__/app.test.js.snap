@@ -1,59 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should render the login component 1`] = `
-<div>
-  <h1>
-    Login
-  </h1>
-</div>
-`;
-
 exports[`App should render without crashing 1`] = `
-<div>
+Array [
   <div
-    className="wrapper"
-  >
+    className="Toastify"
+  />,
+  <div>
     <div
-      className="welcome"
+      className="wrapper"
     >
       <div
-        className="report"
+        className="welcome"
       >
-        <h1>
+        <div
+          className="report"
+        >
+          <h1>
+            <a
+              className="logo"
+              href="/"
+            >
+              iReporter!
+            </a>
+          </h1>
+        </div>
+        <p>
+          <em>
+            Breaking the corruption chain together
+          </em>
+        </p>
+        <p>
+          <em>
+            login to report an incident
+          </em>
+        </p>
+        <p>
           <a
-            className="logo"
-            href="/"
+            className="cat-btn"
+            href="login"
           >
-            iReporter!
+            login
           </a>
-        </h1>
+        </p>
+        <h3>
+          <a
+            href="signup"
+          >
+            SignUp here
+          </a>
+        </h3>
       </div>
-      <p>
-        <em>
-          Breaking the corruption chain together
-        </em>
-      </p>
-      <p>
-        <em>
-          login to report an incident
-        </em>
-      </p>
-      <p>
-        <a
-          className="cat-btn"
-          href="login"
-        >
-          login
-        </a>
-      </p>
-      <h3>
-        <a
-          href="signup"
-        >
-          SignUp here
-        </a>
-      </h3>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
