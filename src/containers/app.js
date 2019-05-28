@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Provider } from "react-redux";
 import Routes from "../components/routes";
 
-import "../styles/app.css";
+import "../styles/app.scss";
 import store from "../store";
 
 class App extends Component {
