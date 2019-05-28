@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest -u --coverage",
+    "test:watch": "jest --watch",
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
@@ -31,9 +32,13 @@
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.2",
+    "jest": "^24.8.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
+    "react-test-renderer": "^16.8.6",
     "redux": "^4.0.1",
     "redux-devtools": "^3.5.0",
     "redux-devtools-extension": "^2.13.8",
