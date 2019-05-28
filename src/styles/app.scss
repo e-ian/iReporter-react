@@ -1,4 +1,62 @@
-h1 {
-  color: #27aedb;
+a {
+  text-decoration: none;
+}
+.wrapper {
+  background-color: #f2f7fd;
+  height: 100vh;
+  background-position: center;
+}
+.welcome {
+  padding-top: 45px;
+  width: 1200px;
+  margin-left: 70px;
+}
+.welcome h1 {
+  color: black;
   text-align: center;
+  font-size: 60px;
+  margin-top: 50px;
+}
+.report {
+  margin-bottom: 10%;
+}
+
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  font-weight: bold;
+}
+.welcome p {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+.welcome h3 {
+  font-style: italic;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+.welcome h3 a {
+  color: black;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+.cat-btn {
+  color: white;
+  background: #003153;
+  border-radius: 5px;
+  padding: 0.2rem 2.6rem;
+  border: 0;
+}
+.logo {
+  color: #003153;
+}
+.cat-btn:hover {
+  background: black;
 }
