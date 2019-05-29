@@ -1,6 +1,14 @@
 .Paper {
   padding: 30px 0 30px 0;
   margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  .signup-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   p,
   h2 {
@@ -11,10 +19,10 @@
   form {
     padding-top: 30px;
     width: 100%;
-    margin-left: 60%;
+    margin-left: 10%;
 
     .textField {
-      width: 85%;
+      width: 70%;
       margin-left: 5%;
     }
 
@@ -22,7 +30,7 @@
       margin: 20px 5% 20px 5%;
       color: white;
       background: #003153;
-      width: 85%;
+      width: 70%;
       border-radius: 0;
       font-family: "Quantico", sans-serif;
       font-weight: bold;
@@ -157,5 +165,20 @@
   .button-collective {
     border-right: 0px;
     margin-right: -100px;
+  }
+}
+@media (max-width: 378px) {
+  .Paper {
+    widows: 100%;
+    .signup-container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      form {
+        padding-top: 30px;
+        width: 100%;
+        margin-right: 10%;
+      }
+    }
   }
 }

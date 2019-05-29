@@ -37,8 +37,8 @@ const Login = props => {
             <Grid container spacing={10}>
               <Grid
                 item
-                lg={6}
-                md={6}
+                lg={12}
+                md={12}
                 className="grid-register"
                 id="login-form"
               >
