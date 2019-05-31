@@ -28,7 +28,7 @@ class Home extends Component {
               </a>
             </p>
             <h3>
-              <a href="register">SignUp here</a>
+              <a href="register" className="register">SignUp here</a>
             </h3>
           </div>
         </div>

@@ -85,9 +85,8 @@ export class RegisterContainer extends Component {
         email: email,
         firstname: firstname,
         lastname: lastname,
-        role: role
+        role: "admin"
       };
-      // console.log("submit", data);
 
       registerUser(data, history);
     } else {
