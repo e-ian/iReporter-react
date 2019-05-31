@@ -57,6 +57,15 @@ p {
 .logo {
   color: #003153;
 }
+.logo:hover {
+  color: #003153;
+  text-decoration: none;
+}
 .cat-btn:hover {
   background: black;
+  text-decoration: none;
+}
+.register:hover {
+  text-decoration: none;
+  color:green;
 }

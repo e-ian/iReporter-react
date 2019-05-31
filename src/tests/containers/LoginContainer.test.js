@@ -81,6 +81,6 @@ describe("login container", () => {
   it("should redirect on login success", () => {
     wrapper.setProps({ ...nextProps });
 
-    expect(props.history.push).toBeCalledWith("/");
+    expect(props.history.push).toBeCalledWith("/interventions");
   });
 });

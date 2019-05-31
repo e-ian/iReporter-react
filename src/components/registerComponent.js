@@ -125,19 +125,6 @@ export const RegisterComponent = props => {
                     ""
                   )}
                 </p>
-                <TextField
-                  InputLabelProps={{
-                    className: classes.floatingLabelFocusStyle
-                  }}
-                  id="role"
-                  label="role"
-                  name="role"
-                  required
-                  type="text"
-                  className="textField"
-                  value={role}
-                  onChange={handleOnChange}
-                />
 
                 <Button type="submit" className="button-success">
                   Register
