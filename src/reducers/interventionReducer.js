@@ -6,7 +6,6 @@ const initialState = {
   errors: {}
 };
 export default (state = initialState, action) => {
-  console.log("reducer");
   switch (action.type) {
     case FETCHED:
       return {
