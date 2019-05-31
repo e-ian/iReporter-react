@@ -7,3 +7,5 @@ export const IS_REGISTERING = "IS_REGISTERING";
 export const IS_FETCHING = "IS_FETCHING";
 export const FETCHED = "FETCHED";
 export const FETCH_FAILED = "FETCH_FAILED";
+export const CREATE_INTERVENTIONS = "CREATE_INTERVENTIONS";
+export const CREATE_ERROR = "CREATE_ERROR";

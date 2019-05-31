@@ -85,7 +85,7 @@ export class RegisterContainer extends Component {
         email: email,
         firstname: firstname,
         lastname: lastname,
-        role: "admin"
+        role: "user"
       };
 
       registerUser(data, history);

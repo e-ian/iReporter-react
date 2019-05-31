@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import LoginContainer from "../containers/LoginContainer";
 import RegisterContainer from "../containers/registerContainer";
 import interventionContainer from "../containers/InterventionContainer";
+import createInterventionContainer from "../containers/createInterventionContainer";
 import Home from "./home";
 
 class Routes extends Component {
@@ -14,6 +15,7 @@ class Routes extends Component {
           <Route path="/login" component={LoginContainer} />
           <Route path="/register" component={RegisterContainer} />
           <Route path="/interventions" component={interventionContainer} />
+          <Route path="/create" component={createInterventionContainer} />
         </Switch>
       </BrowserRouter>
     );

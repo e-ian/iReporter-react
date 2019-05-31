@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`get intervention component success tests should render without crashing 1`] = `ShallowWrapper {}`;

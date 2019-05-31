@@ -8,7 +8,7 @@ class NavbarComponent extends Component {
   logout = () => {
     let { history } = this.props;
     sessionStorage.clear();
-    history.push("/login");
+    history.push("/");
   };
   render() {
     return (

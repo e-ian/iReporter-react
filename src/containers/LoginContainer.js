@@ -25,7 +25,7 @@ export class LoginContainer extends Component {
     if (nextProps.loginSuccess === true) {
       const { history } = this.props;
 
-      history.push("/interventions");
+      history.push("/create");
     }
   }
 
