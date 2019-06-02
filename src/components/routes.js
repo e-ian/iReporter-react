@@ -5,17 +5,21 @@ import RegisterContainer from "../containers/registerContainer";
 import interventionContainer from "../containers/InterventionContainer";
 import createInterventionContainer from "../containers/createInterventionContainer";
 import Home from "./home";
+import { SecureLogin, SecureRoute } from "./protectRoutes";
 
 class Routes extends Component {
   render() {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/login" component={LoginContainer} />
-          <Route path="/register" component={RegisterContainer} />
-          <Route path="/interventions" component={interventionContainer} />
-          <Route path="/create" component={createInterventionContainer} />
+          <SecureLogin exact path="/" component={Home} />
+          <SecureLogin path="/login" component={LoginContainer} />
+          <SecureLogin path="/register" component={RegisterContainer} />
+          <SecureRoute
+            path="/interventions"
+            component={interventionContainer}
+          />
+          <SecureRoute path="/create" component={createInterventionContainer} />
         </Switch>
       </BrowserRouter>
     );
