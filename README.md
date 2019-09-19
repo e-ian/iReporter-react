@@ -6,3 +6,10 @@
 
 Deployed app https://e-an-ireporter-react.herokuapp.com/#
 
+```
+Login Credentials:
+username: paulo
+password: @bochiSupreme1
+
+```
+
