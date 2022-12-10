@@ -46,7 +46,7 @@
     "coveralls": "^3.0.3",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.13.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jest": "^24.8.0",
     "jquery": "^3.5.0",
     "jwt-decode": "^2.2.0",
